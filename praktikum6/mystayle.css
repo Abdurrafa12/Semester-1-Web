@@ -1,0 +1,40 @@
+h1{
+    color: purple;
+    background-color: aqua;
+    text-align: center;
+}
+
+body{
+    background-color: chocolate;
+    font-family: 'Lucida Sans', verdana ,sans-serif;
+}
+
+img{
+    margin-left: 25%;
+}
+
+.foto{
+    background-color:blueviolet;
+    
+}
+
+.foto img{
+    width: 20%;
+    
+    
+}
+
+p{
+    text-align: center;
+    background-color: red;
+    
+}
+h2{
+    text-align: center;
+    background-color: pink;
+}
+
+h3{
+    text-align: center;
+    background-color:orange;
+}
