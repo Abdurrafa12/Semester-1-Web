@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function Image_picture(){
+            const list_gambar = ["zx.jpg", "h2.jpg", "hayabusa.jpg"];
+            let pilihan = document.getElementById("option"). value ;
+
+            if( pilihan == "zx") {
+                let select = list_gambar [0];
+                document.getElementById("images").src = `images/${select}` ;
+            }
+
+            if( pilihan == "h2"){
+                let select = list_gambar[1];
+                document.getElementById("images").src = `images/${select}` ;
+            }
+
+            if( pilihan == "hayabusa"){
+                let select = list_gambar[2];
+                document.getElementById("images").src = `images/${select}` ;
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Image picture</h1>
+
+    <select name="" id="option" onchange="Image_picture()">
+        <option value="zx">Motor ZX</option>
+        <option value="h2">Motor H2</option>
+        <option value="hayabusa">Motor Hayabusa</option>
+    </select>
+   
+    <div class="container">
+        <img id="images" width="300px">
+    </div>
+</body>
+</html>
